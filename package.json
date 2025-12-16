@@ -1,7 +1,15 @@
 {
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:headless": "cypress run --headless",
+    "cy:run:spec": "cypress run --spec \"cypress/e2e/**/*.cy.js\"",
+    "cy:run:ci": "cypress run --headless --browser edge",
+    "test": "cypress run"
+  },
   "devDependencies": {
-    "@faker-js/faker": "^10.1.0",
-    "cypress": "^15.7.1",
-    "cypress-plugin-api": "^2.11.2"
+    "cypress": "^13.6.0",
+    "@faker-js/faker": "^8.4.1"
   }
 }
