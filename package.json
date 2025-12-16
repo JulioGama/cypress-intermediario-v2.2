@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run",
+    "cy:run": "cypress run --headless --browser edge",
     "cy:run:headless": "cypress run --headless",
     "cy:run:spec": "cypress run --spec \"cypress/e2e/**/*.cy.js\"",
     "cy:run:ci": "cypress run --headless --browser edge",
