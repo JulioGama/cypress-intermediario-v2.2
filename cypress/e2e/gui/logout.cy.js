@@ -1,5 +1,5 @@
 describe('Logout', () => {
-  it.only('passes', () => {
+  it('passes', () => {
     cy.login()
 
     cy.logout()
